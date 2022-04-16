@@ -1,0 +1,52 @@
+.header{
+  display:flex;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 50px;
+  color: aliceblue;
+  justify-content: space-between;
+  background-color: blueviolet;
+}
+.header img{
+  height: 100px;
+  width: 100px;
+}
+
+.App{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+button{
+  color: aliceblue;
+  background-color: blueviolet;
+  height: 40px;
+  margin-left: 100px;
+  border: 1px solid;
+  border-radius: 10px;
+}
+
+input{
+  margin: 30px;
+  height: 20px;
+  border:1px solid;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.meme img{
+  position: relative;
+}
+
+.top{
+position: absolute;
+top:260px;
+left:100px;
+color:white;
+text-align: center;
+}
+.bottom{
+text-align: center;
+position: absolute;
+top:530px;
+left:100px;
+color:white
+}
+
+
